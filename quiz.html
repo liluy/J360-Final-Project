@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Quiz</title>
+<meta name="description" content="Final Project Thailand, quiz">
+<meta name="author" content="Luyuan(Ruby) Li">
+<meta name="keywords" content="preparation, thailand, quiz, trip">
+<link rel="stylesheet" href="css/quiz.css">
+<script type="text/javascript" src="jquery-2.2.3.js"></script>
+<script src="javascript.js"></script>
+</head>
+
+<img src="images/head.png" style="max-width:100%;height:auto;" alt="images" class="align-center" >
+        
+<body>
+<div class="container">
+                <nav>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="index.html">Gallery</a></li>
+                        <li><a href="quiz.html">Preparation</a></li>
+                    </ul>
+                </nav>
+</div>
+<h2>Test yourself, Are you ready for the vacation to Thailand?</h2>
+
+<form name="quiz">
+	<ol>
+    		<p>The primary religion in Thailand is ?</p>
+    		<ul>
+            <li> <input type="radio" name="q1" value="correct"> Buddhism </li>
+			<li> <input type="radio" name="q1" value="wrong"> Catholic </li>
+			<li> <input type="radio" name="q1" value="wrong"> Taoism </li>
+			<li> <input type="radio" name="q1" value="wrong"> Christian </li>
+            </ul>
+            
+			<p>The normal greeting method is ?</p>
+    		<ul>
+            <li> <input type = "radio" name="q2" value="wrong" > Shake hand</li>
+			<li> <input type = "radio" name="q2" value="wrong" > Shake head </li>
+			<li> <input type = "radio" name="q2" value="wrong" > Kowtow</li>
+			<li> <input type = "radio" name="q2" value="correct" >  Close hands and a slight bow </li>
+    		</ul>
+
+ 			<p>The weather in Thailand is generally very ?</p>
+    		<ul>
+            <li> <input type="radio" name="q3" value="correct" >Hot</li>
+			<li> <input type="radio" name="q3" value="wrong" >Cold</li>
+			<li> <input type="radio" name="q3" value="wrong" >Warm</li>
+			<li> <input type="radio" name="q3" value="wrong" >Windy</li>
+ 			</ul>
+ 			
+            <p>You will possibly flight to Thailand at which airport?</p>
+    		<ul>
+            <li> <input type="radio" name="q4" value="wrong" >Bangkok Don Mueang International Airport</li>
+			<li> <input type="radio" name="q4" value="correct" >Bangkok Suvarnabhumi Airport</li>
+			<li> <input type="radio" name="q4" value="wrong" >Phuket International Airport</li>
+			<li> <input type="radio" name="q4" value="wrong" >Samui International Airport</li>
+    		</ul>
+            
+  			<p>Does US citizen need a visa to go to Thailand?</p>
+    		<ul>
+            <li> <input type="radio" name="q5" value="wrong" >Yes</li>
+            <li> <input type="radio" name="q5" value="correct" >No</li>
+    		</ul>
+            
+            <p>When is Thai New Year?</p>
+    		<ul>
+            <li> <input type="radio" name="q6" value="wrong" >March 13</li>
+            <li> <input type="radio" name="q6" value="wrong" >June 13</li>
+            <li> <input type="radio" name="q6" value="correct" >April 13</li>
+            <li> <input type="radio" name="q6" value="wrong" >July 13</li>
+    		</ul>
+    		
+    
+    </ol>
+    <input type="button" value="submit" onCLick="checkAll()">
+	<input type="reset" value="Clear">
+	
+    <textarea rows="10" cols="80" name="answersBox"> The Correct Answers will display here </textarea>
+
+    
+</form>
+</body>
+
+
+</html>
